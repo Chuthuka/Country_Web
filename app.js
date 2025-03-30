@@ -16,7 +16,7 @@ function loadCountries(){
         dataList.forEach(element => {
             body+=`
                                <div class="col" id="${index++}" data-aos="zoom-in">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm ">
                             <img src="${element.flags.png}" alt="">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
